@@ -1,5 +1,5 @@
 public class PierwiastekKwadratowyLubZero {
-	public int pierwiastekKwadratowyLubZero(int podstawa) {
+	public static int pierwiastekKwadratowyLubZero(int podstawa) {
 		return 0;
 	}
 }

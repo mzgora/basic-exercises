@@ -3,7 +3,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CiagFibonacciegoTest {
-	CiagFibonacciego logika = new CiagFibonacciego();
 	int[] oczekiwane = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 };
 
 	@Test
@@ -24,6 +23,6 @@ public class CiagFibonacciegoTest {
 	}
 
 	public void sprawdz(int index) {
-		assertEquals("fibonacci(" + index + ")", oczekiwane[index], logika.fibonaccie(index));
+		assertEquals("fibonacci(" + index + ")", oczekiwane[index], CiagFibonacciego.fibonaccie(index));
 	}
 }

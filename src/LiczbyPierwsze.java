@@ -1,5 +1,5 @@
 public class LiczbyPierwsze {
-	public int[] liczbyPierwsze(int maksimum) {
+	public static int[] liczbyPierwsze(int maksimum) {
 		return new int[] {};
 	}
 }

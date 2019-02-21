@@ -11,7 +11,6 @@ import org.junit.Test;
 
 public class LiczbyPierwszeTest {
 	Map<Integer, int[]> oczekiwane = new HashMap<>();
-	private LiczbyPierwsze logika = new LiczbyPierwsze();
 
 	@Before
 	public void before() {
@@ -58,7 +57,7 @@ public class LiczbyPierwszeTest {
 	}
 
 	public void sprawdz(int maksimum) {
-		int[] wynik = logika.liczbyPierwsze(maksimum);
+		int[] wynik = LiczbyPierwsze.liczbyPierwsze(maksimum);
 		System.out.println("liczbyPierwsze(" + maksimum + ") = " + Arrays.toString(wynik) + "\n\t"
 				+ sprawdz(wynik, oczekiwane.get(maksimum)));
 		assertArrayEquals("liczbyPierwsze(" + maksimum + ") ", oczekiwane.get(maksimum), wynik);

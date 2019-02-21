@@ -1,5 +1,5 @@
 public class CiagFibonacciego {
-	public int fibonaccie(int index) {
+	public static int fibonaccie(int index) {
 		return 0;
 	}
 }
