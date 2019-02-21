@@ -48,7 +48,7 @@ public class PotegowanieTest {
 	}
 
 	private void sprawdz(int podstawa, int potega) {
-		int wynik = logika.potega(podstawa, potega);
+		int wynik = Potegowanie.potega(podstawa, potega);
 		System.out.println(podstawa + " ^ " + potega + " = " + wynik + "\t" + ((int) Math.pow(podstawa, potega) == wynik ? "OK"
 						: "BLAD, oczekiwano:\t" + (int) Math.pow(podstawa, potega)));
 		assertEquals(podstawa + " ^ " + potega + " = ", (int) Math.pow(podstawa, potega), wynik);

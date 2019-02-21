@@ -3,10 +3,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class PierwiastekKwadratowyLubZeroTest {
-	PierwiastekKwadratowyLubZero logic = new PierwiastekKwadratowyLubZero();
-
 	private void sprawdz(int podstawa, int oczekiwana) {
-		int wynik = logic.pierwiastekKwadratowyLubZero(podstawa);
+		int wynik = PierwiastekKwadratowyLubZero.pierwiastekKwadratowyLubZero(podstawa);
 		System.out.println(podstawa + " ^ (1/2) = " + wynik
 				+ (wynik == oczekiwana
 						? "\t\tOK"

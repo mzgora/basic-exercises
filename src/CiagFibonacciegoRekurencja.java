@@ -1,6 +1,6 @@
 public class CiagFibonacciegoRekurencja {
 
-	public int fibonaccieRekurencja(int index) {
+	public static int fibonaccieRekurencja(int index) {
 		return 0;
 	}
 }

@@ -1,6 +1,6 @@
 
 public class Potegowanie {
-	public int potega(int podstawa, int potega) {
+	public static int potega(int podstawa, int potega) {
 		return 1;
 	}
 }
